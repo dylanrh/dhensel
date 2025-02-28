@@ -23,7 +23,7 @@ This project is a constant work in progress, so if you find any bugs, typos or o
     Once this is installed you can run `pnpm install` in your project directory to install dependencies.
 
     ```sh
-    cd portfolio/
+    cd dhensel/
     pnpm dev
     ```
 
