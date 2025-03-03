@@ -27,8 +27,8 @@ export const navItems = [
 	// 	title: 'Case Studies',
 	// },
 	// {
-	// 	href: '/blog',
-	// 	title: 'Blog',
+	// 	href: '/personal',
+	// 	title: 'Personal',
 	// },
 	{
 		href: '/contact',
