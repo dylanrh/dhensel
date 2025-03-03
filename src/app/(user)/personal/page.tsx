@@ -21,6 +21,26 @@ const getData = async () => {
 	return posts;
 };
 
+const PartyInvite = () => {
+  return (
+    <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center">
+				<a href="https://partiful.com/e/52URjVM64mve5ulHrFbJ" target='_blank' rel='noopener noreferrer'>
+        	<img src="/DyKal_engagement.png" alt="Dylan and Kal engagement" className="mb-4" />
+				</a>
+        <a
+          href="https://partiful.com/e/52URjVM64mve5ulHrFbJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-purple-600 text-white font-bold rounded-lg shadow-md hover:bg-purple-700"
+        >
+          Join the Party 🎉
+        </a>
+      </div>
+    </div>
+  );
+};
+
 const PersonalPage = async () => {
 	const posts = await getData();
 
@@ -44,6 +64,7 @@ const PersonalPage = async () => {
 						</article>
 					);
 				})}
+				<PartyInvite />
 			</Container>
 		</AnimatePage>
 	);
