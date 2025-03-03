@@ -80,10 +80,9 @@ const HomePage = async () => {
 			<section id="services">
 				<Container>
 					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
-						Services I provide
+						Interested in more?	
 						<span className="mt-2 block text-xl font-bold text-off-black dark:text-off-white md:text-2xl">
-							as a software architect with a passion for creating applications
-							and websites that people love.
+							Don't worry, more projects and information are in the works, as well as some ways to connect and collaborate with me!  I appreciate your patience.
 						</span>
 					</h2>
 
