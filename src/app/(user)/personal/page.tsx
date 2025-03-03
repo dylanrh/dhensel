@@ -10,9 +10,9 @@ import type { Post } from '@types';
 import { format } from 'date-fns';
 
 export const metadata = {
-	title: 'Software Engineering Blog by Jacob Herper',
+	title: 'Personal life of Dylan Hensel',
 	description:
-		'I try to make an effort to document my journey as a software developer in the form of blog posts. Here you find some of the articles I published over the years.',
+		'About my personal life.',
 };
 
 const getData = async () => {
@@ -21,20 +21,20 @@ const getData = async () => {
 	return posts;
 };
 
-const BlogPage = async () => {
+const PersonalPage = async () => {
 	const posts = await getData();
 
 	return (
 		<AnimatePage>
 			<Container>
 				<h1 className="headline mt-8 pb-8 text-3xl md:text-5xl lg:text-6xl">
-					Blog
+					Personal Life
 				</h1>
 				{posts.map((post) => {
 					return (
 						<article key={post.slug} className="mb-16">
 							<h2 className="mb-2 text-xl font-bold md:text-2xl lg:text-3xl">
-								<a href={`/blog/${post.slug}`}>{post.title}</a>
+								<a href={`/personal/${post.slug}`}>{post.title}</a>
 							</h2>
 							<ContentBlock value={post.intro} />
 							<em className="mt-2 block">
@@ -49,4 +49,4 @@ const BlogPage = async () => {
 	);
 };
 
-export default BlogPage;
+export default PersonalPage;

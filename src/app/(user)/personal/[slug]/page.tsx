@@ -25,12 +25,12 @@ const getData = async (slug: string) => {
 export const generateMetadata = async ({ params }: PageProps) => {
 	const post = await getData(params.slug);
 	return {
-		title: `${post?.title} - Jacob Herper's Blog`,
+		title: `${post?.title} - Dylan Hensel's Life`,
 		description: post?.seoDescription,
 	};
 };
 
-const BlogPostPage = async ({ params }: PageProps) => {
+const PersonalPostPage = async ({ params }: PageProps) => {
 	const { slug } = params;
 
 	try {
@@ -53,7 +53,7 @@ const BlogPostPage = async ({ params }: PageProps) => {
 	}
 };
 
-export default BlogPostPage;
+export default PersonalPostPage;
 
 export const generateStaticParams = async () => {
 	const query = groq`
