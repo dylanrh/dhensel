@@ -65,7 +65,7 @@ const AboutPage = async () => {
 				</p>
 				<p>
 					Over the years, I’ve been instrumental in transitioning monolithic
-					applications to microservices architectures, implementing dynamic
+					applications to microservices architecture, implementing dynamic
 					cloud scaling, and ensuring PCI compliance and DDoS protection through
 					advanced security measures. My work also involves automating
 					workflows, CI/CD pipelines, and testing processes to enhance developer

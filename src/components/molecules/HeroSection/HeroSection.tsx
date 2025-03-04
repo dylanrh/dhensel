@@ -34,9 +34,9 @@ export const HeroSection = () => {
 					<div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
 						<p className="text-lg leading-8 text-slate-600 dark:text-off-white">
 							I am a Software Engineer with a drive to serve people and the
-							world. I like to work on tech that positievely impacts society our
+							world. I like to work on tech that positievely impacts society and our
 							planet. I advocate for conscious and responsible technology to
-							help all, making the internet and the world a better place.
+							help everyone; making the internet and the world a better place.
 							<br />
 							You can talk to me about <TypeWriter strings={talkAbout} />.
 						</p>
