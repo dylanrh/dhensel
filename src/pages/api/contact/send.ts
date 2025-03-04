@@ -39,8 +39,13 @@ const contactHandler = async (req: NextApiRequest, res: NextApiResponse) => {
 					subject: `Website Contact: ${subject} (Ticket ${ticketNumber})`,
 					text: message,
 					html: `<div>
-            <p>${message}</p>
-          </div>`,
+						<h1>Website Contact Form</h1>
+						<p>Ticket Number: ${ticketNumber}</p>
+						<p>Subject: ${subject}</p>
+						<p>From: ${firstName} ${lastName} ${email}</p>
+						<h2>Message</h2>
+						<p>${message}</p>
+					</div>`,
 				},
 				(error: Error | null, info: SentMessageInfo) => {
 					if (error) {
