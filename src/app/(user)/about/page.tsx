@@ -44,6 +44,7 @@ const AboutPage = async () => {
 				<h1 className="headline mt-8 text-3xl md:text-5xl lg:text-6xl">
 					Hey, I&apos;m Dylan Hensel
 				</h1>
+				<br />
 				<h2 className="mt-2 text-xl font-bold md:text-2xl">
 					Senior Software Engineer, Engineering Manager, and Systems Architect
 				</h2>

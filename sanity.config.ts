@@ -1,4 +1,4 @@
-import { StudioLogo } from '@components/atoms/Logo';
+import { StudioLogo } from './src/components/atoms/Logo';
 
 import { codeInput } from '@sanity/code-input';
 import { visionTool } from '@sanity/vision';
