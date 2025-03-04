@@ -14,16 +14,16 @@ export default async function sitemap() {
 		lastModified: new Date(publishedAt).toISOString().split('T')[0],
 		priority: 0.65,
 	}));
-	// const caseStudiesRoutes = caseStudies.map(({ slug, publishedAt }) => ({
-	// 	url: `https://jacobherper.com/case-studies/${slug}`,
-	// 	lastModified: new Date(publishedAt).toISOString().split('T')[0],
-	// 	priority: 0.65,
-	// }));
+	const caseStudiesRoutes = caseStudies.map(({ slug, publishedAt }) => ({
+		url: `https://dhensel.com/case-studies/${slug}`,
+		lastModified: new Date(publishedAt).toISOString().split('T')[0],
+		priority: 0.65,
+	}));
 	const staticRoutes = [
 		'',
 		'/about',
 		'/personal',
-		// '/case-studies',
+		'/case-studies',
 		'/contact',
 		// '/uses',
 	].map((route) => {
