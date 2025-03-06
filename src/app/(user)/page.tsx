@@ -82,7 +82,7 @@ const HomePage = async () => {
 					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
 						Interested in more?	
 						<span className="mt-2 block text-xl font-bold text-off-black dark:text-off-white md:text-2xl">
-							Don't worry, more projects and information are in the works, as well as some ways to connect and collaborate with me!  I appreciate your patience.
+							Don't worry, more projects and information are in the works, as well as some more ways to connect and collaborate with me!  I appreciate your patience.
 						</span>
 					</h2>
 

@@ -56,9 +56,9 @@ const AboutPage = async () => {
 					infrastructures.
 				</p>
 				<p className="my-4">
-					Most recently, I lead engineering teams at FanFix, where I manage
+					Most recently, I led engineering teams at FanFix, where I managed
 					cross-functional development efforts across multiple monorepos,
-					improve security protocols, and drive strategic technical decisions.
+					improved security protocols, and drove strategic technical decisions.
 					My expertise lies in backend architecture, cloud computing, security
 					enhancements, and automation, leveraging technologies like Nest.js,
 					Node.js, TypeORM, GraphQL, Docker, Kubernetes, and Google Cloud
