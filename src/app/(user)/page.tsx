@@ -77,7 +77,7 @@ const HomePage = async () => {
 					</div>
 				</Container>
 			</section>
-			<section id="services">
+			{/* <section id="services">
 				<Container>
 					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
 						Interested in more?	
@@ -90,7 +90,7 @@ const HomePage = async () => {
 						<Service key={service.slug} {...service} isReversed={i % 2 !== 0} />
 					))}
 				</Container>
-			</section>
+			</section> */}
 		</AnimatePage>
 	);
 };

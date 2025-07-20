@@ -45,17 +45,21 @@ const AboutPage = async () => {
 					Hey, I&apos;m Dylan Hensel
 				</h1>
 				<br />
-				<h2 className="mt-2 text-xl font-bold md:text-2xl">
-					Senior Software Engineer, Engineering Manager, and Systems Architect
-				</h2>
+				{/* <h2 className="mt-2 text-xl font-bold md:text-2xl">
+					Software Engineer
+				</h2> */}
+				<p className="mt-8">
+				I’m a passionate software engineer with nearly a decade of experience building scalable, high-impact web applications and systems. I specialize in full-stack development, working across React, Node.js, TypeScript, and cloud platforms to deliver elegant, performant solutions. Beyond the code, I care deeply about user experience, technical quality, and mentoring teams to do their best work. I’m driven by curiosity, creativity, and a love for solving complex problems that make a meaningful difference.
+				</p>
+				{/*
 				<p className="mt-8">
 					I am passionate about building scalable, high-performance
-					applications. With years of experience in backend and full-stack
+					applications. With nearly a decade of experience in fullstack
 					development, I specialize in designing and optimizing complex systems,
 					ensuring security, efficiency, and maintainability across distributed
 					infrastructures.
 				</p>
-				<p className="my-4">
+				 <p className="my-4">
 					Most recently, I led engineering teams at FanFix, where I managed
 					cross-functional development efforts across multiple monorepos,
 					improved security protocols, and drove strategic technical decisions.
@@ -81,7 +85,7 @@ const AboutPage = async () => {
 					AWS. I’ve built everything from developer tools and real-time
 					collaborative applications to high-traffic consumer platforms that
 					serve millions of users.
-				</p>
+				</p> */}
 				<h2 className="headline mb-4 mt-12 text-4xl">Beyond Engineering</h2>
 
 				{/* <PodcastList podcasts={podcasts} /> */}
@@ -118,7 +122,7 @@ const AboutPage = async () => {
 					organizations, or working on tech-for-good initiatives that create
 					meaningful change.
 				</p>
-				<p className="mt-4">
+				{/* <p className="mt-4">
 					Beyond that, I have a deep personal commitment to fitness, martial
 					arts (Krav Maga), bodybuilding, and personal training. I thrive on
 					discipline and continuous growth, whether it's pushing limits in the
@@ -132,7 +136,7 @@ const AboutPage = async () => {
 					emerging trends in software development, or just share insights on
 					music, film, or community work, I’d love to chat.
 				</p>
-				<p className="mt-4">Let’s build something impactful together!</p>
+				<p className="mt-4">Let’s build something impactful together!</p> */}
 
 				{/* <h2 className="headline mb-4 mt-12 text-4xl">Experience</h2>
 
